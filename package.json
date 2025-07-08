@@ -1,0 +1,30 @@
+{
+  "name": "webpack-deconstructor",
+  "version": "1.0.0",
+  "description": "Deconstructs Webpack-bundled JavaScript files and reconstructs the original source code and directory structure",
+  "main": "webpack-deconstructor.js",
+  "bin": {
+    "webpack-deconstructor": "./webpack-deconstructor.js"
+  },
+  "scripts": {
+    "start": "node webpack-deconstructor.js",
+    "test": "node webpack-deconstructor.js ./test/sample-bundle.js ./output"
+  },
+  "keywords": [
+    "webpack",
+    "deconstruct",
+    "bundle",
+    "reverse-engineer",
+    "source-map",
+    "javascript",
+    "es6",
+    "modules"
+  ],
+  "author": "empathy0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+} 
