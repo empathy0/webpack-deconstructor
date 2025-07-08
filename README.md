@@ -37,7 +37,7 @@ node webpack-deconstructor.js ./dist/main.js
 node webpack-deconstructor.js ./build/app.bundle.js ./output
 
 # Using the provided test file
-node webpack-deconstructor.js ./reference-built-site/build/js/main-1737374251.js ./reconstructed-app
+node webpack-deconstructor.js ./reference-built-site/build/js/main.js ./reconstructed-app
 ```
 
 ### Command Line Options
@@ -106,10 +106,10 @@ export class Main {
 
 ```
 🚀 Webpack Deconstructor Starting...
-📥 Input: ./reference-built-site/build/js/main-1737374251.js
+📥 Input: ./reference-built-site/build/js/main.js
 📤 Output: ./reconstructed-app
 ──────────────────────────────────────────────────
-🔍 Reading webpack bundle: ./reference-built-site/build/js/main-1737374251.js
+🔍 Reading webpack bundle: ./reference-built-site/build/js/main.js
 📦 Parsing webpack modules...
 📊 Found 45 application modules (excluding node_modules)
 📁 Creating output directory: ./reconstructed-app
